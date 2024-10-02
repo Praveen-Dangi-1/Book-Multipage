@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+
+    background-color:transparent;
+    overflow-x: hidden;
+}
+*{  margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+/*-----First nav bar start-------*/
+
+header{
+    height: 20vh;
+    width: 100%;
+    background-color:transparent;
+    box-sizing: 5px 5px 5px;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+}
+header .first-nav{
+    height: 60%;
+    width: 100%;
+    background-color:aquamarine;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+header .first-nav .logo{
+    width: 10%;
+    height: 70%;
+    margin-left: 10px;
+}
+header .first-nav .logo img{
+    height: 100%;
+    width: 100%;
+   
+    
+}
+header .first-nav .search{
+    height: auto;
+    width: 30%;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+header .first-nav .search .search-1 {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+header .first-nav .search .search-1 input{
+    border: none;
+    background-color: aquamarine;
+    outline: none;
+    width: 90%;
+
+}
+header .first-nav .menu{
+    margin: 5px;
+    justify-content: space-between;
+}
+header .first-nav .menu a{
+    text-decoration: none;
+    margin: 5px;
+    font-size: 17px;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 12px;
+}
+header .first-nav .menu a:hover{
+    letter-spacing: 1px;
+    background-color: blue;
+    color: white ;
+}
+header .first-nav .menu select{
+    margin-right: 10px;
+    border: none;
+    font-size: larger;
+    background-color:bisque;
+    border-radius: 10px;
+    width: 90px;
+}
+header .first-nav .menu select:hover{
+}
+
+
+/*------First nav bar end--------*/
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+/*-----Second nav bar start-------*/
+
+
+
+header .second-nav{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(155, 219, 235);
+    border-bottom: 1px solid black;
+    align-items:flex-end;
+    display: flex;
+    flex-direction: column-reverse;
+}
+header .second-nav div a{
+    font-size: large;
+    position: relative;
+    top: -15px;
+    right: 10px;
+    text-decoration: none;
+}
+header .first-nav button{
+    position: relative;
+    display: none;
+}
+header .first-nav .menu .cross-btn{
+    position: relative;
+    display: none;
+}
+
+
+
+/*------second nav bar end--------*/
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+
+/*--------about section start------*/
+.big-box{
+    background-color: antiquewhite;
+    position: relative;
+    top: 14vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.big-box .about{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+h4{
+    font-size: 28px;
+    color: #161010;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight:bolder;
+    position: relative;
+  }
+h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+
+
+.big-box .about a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bolder;
+        
+}
+.big-box .about, .about1 h2{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+    
+}
+.big-box .about img{
+
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: ;
+    
+}
+.big-box .about1 video{
+
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    height: 75%;
+    width: 30%;
+    margin-left: 10px;
+    
+}
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+.big-box .about{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 20px;
+    box-shadow: 10px 30px 40px rgb(198, 88, 88);
+    
+}
+.big-box .about1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 10%;
+    border-radius: 20px;
+    box-shadow: 10px 30px 40px rgb(198, 88, 88);
+    
+}
+.material{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.big-box .about{
+    height: 40%;
+    width: 80%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 209, 177);
+    top: 30px;
+    
+}
+.big-box .about1{
+    height: 40%;
+    width: 80%;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(241, 209, 177);
+    top: 110px;
+    
+}
+.big-box .a1{
+    height: 300px;
+    width: 300px;
+    margin-right: 60px;
+   
+}
+
+
+.big-box .a1 h2{
+    color: rgb(155, 57, 212);
+    margin-top: 10px;
+}
+.big-box .a1 h5{
+    color: rgb(133, 69, 79);
+    margin-top: 20px;
+    margin-left: 30px;
+    font: 1em sans-serif;
+
+}
+.b2{
+    text-align: center;
+}
+.b2 h2{
+    text-align: center;
+}
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+.big-box .founder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    border-bottom: 1px solid black;
+}
+.big-box .founder .founder1{
+    height: 110px;
+    width: 300px;
+    background-color:transparent;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.big-box .founder .founder1 h2{
+    color: rgb(51, 124, 100);
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.big-box .founder .founder1 h1{
+    color: rgb(189, 38, 144);
+    margin-left: 40px;
+    margin-top:  10px; ;
+}
+.big-box .founder .founder1 h3{
+    color: rgb(22, 198, 242);
+    margin-left: 175px;
+    margin-top: 1px;
+}
+.big-box .founder .founder2{
+    height: 100px;
+    width: 100px;
+    margin-top: 27px;
+    background-color: transparent;
+}
+.big-box .founder .founder2 img{ 
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+}
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+.big-box .a2{ 
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.big-box .a2 i{
+
+}
+.big-box .a2 select{
+    border: none;
+    background-color: antiquewhite;
+}
+.big-box .a2 a{
+    text-decoration: none;
+    color: black;
+}
+.big-box .a3{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.connectwithus{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.connectwithus h4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.connectwithus ul{
+    color: #e91e63;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: -62px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.big-box .a3 i{
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: x-large;
+}

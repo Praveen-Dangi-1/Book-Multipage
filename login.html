@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="images/praveen profile.jpeg">
+    <script src="https://kit.fontawesome.com/23ebe26d2e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--------====================HEADER START==============--------->
+    <header>
+        <nav class="first-nav" id="menu1">
+            
+            <div class="logo">
+                <img src="images/logo.webp" alt="">
+            </div>
+
+
+            <div class="search">
+                
+                <div class="search-1">
+                    <input type="search" placeholder="Book Name / Author / Subject">
+                    <a href="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                
+                </div>
+                
+            </div>
+            <button onclick="open_menu()" id="btn"><i  class="fa-solid fa-ellipsis-vertical"></i></button>
+            <div class="menu" id="menu">
+                <button class="cross-btn" onclick="close_menu()">X</button>
+                <a href="index.html">HOME </a>
+                <a href="about.html">ABOUT</a>
+                <select name="links" onchange="window.location.href=this.value;">
+                    <option>Books</option>
+                    <option value="c book.html">C</option>
+                    <option value="c++ book.html">C++</option>
+                    <option value="python.html">PYTHON</option>
+                    <option value="html book.html">HTML</option>
+                    <option value="java.html">JAVA</option>
+                    <option value="sql.html">SQL</option>
+                    
+                    
+                    
+                </select>
+            </div>
+
+            
+        </nav>
+        
+     
+
+        
+       
+    </header>
+
+ <!--------------========================================---------->
+ <!------------HEADER END---------------->
+ <!--------------========================================---------->
+    <div class="main">
+        <div class="login-form">
+            <a class="cross" href="index.html">X</a>
+            <div class="login">
+                
+                <form action="" class="login11">
+                    
+                    <label for="">username</label>
+                    <input class="user" type="text">
+                    <label for="">Password</label>
+                    <input class="user" type="password">
+                    <button class="login-btn">LOGIN</button>
+                    <h4>OR SIGNUP USING</h4>
+                    <div class="logo">
+                        <li>
+                            <a href="https://www.facebook.com/">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="https://myaccount.google.com/">
+                                <i class="fa-brands fa-google"></i>
+                            </a>
+                            <a href=https://x.com/i/flow/login">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                    </div>
+                </form>
+        
+            </div>
+        </div>
+    </div> 
+    
+    
+
+
+  <!--------------========================================---------->
+    <script>
+        var x=document.getElementById("menu")
+    console.log(x)
+    function open_menu() {
+    x.style.left="0px";
+    
+    document.getElementById("btn").style.display="none";
+    
+    
+    }
+    function close_menu() {
+    x.style.left="-100%";
+    document.getElementById("btn").style.display="block";
+    
+    
+    }
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>

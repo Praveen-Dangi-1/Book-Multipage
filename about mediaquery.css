@@ -1,0 +1,175 @@
+@media(max-width: 420px){
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        height: 20vh;
+        width: 100%;
+        background-color:transparent;
+        box-sizing: 5px 5px 5px;
+        position: fixed;
+        z-index: 10;
+        top: 0px;
+
+    }
+    header .first-nav{
+        height: 60%;
+        width: 100%;
+        background-color:aquamarine;
+        border-bottom: 2px solid black;
+        display: block;
+        
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header .first-nav .logo{
+        width: 8%;
+        height: 70%;
+        margin-left: 4px;
+    }
+    header .first-nav .logo img{
+        height: 110%;
+        width: 200%;
+        
+    }
+    header .first-nav .search{
+        height: auto;
+        width: 47%;
+        background-color: aquamarine;
+        border: 2px solid black;
+        border-radius: 20px;
+        padding: 5px;
+        margin-top: -28px;
+        margin-left: 125px;
+    }
+    header .first-nav .search .search-1 {
+        display: flex;
+        justify-content: space-between;
+        border: none;
+    }
+    header .first-nav .search .search-1 input{
+        border: none;
+        background-color: aquamarine;
+        outline: none;
+    
+    }
+    header .first-nav .menu{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        
+        transition: 5s;
+        width: 20%;
+        height: 150%;
+        
+        background-color: #dd5ab4;
+        
+        left: -100%;
+    }
+    header .first-nav .menu .cross-btn{
+        margin-left: 75px;
+        margin-top: 0px;
+        position: absolute;
+        font-size: large;
+        display: block;
+    }
+    header .first-nav .menu a{
+        text-decoration: none;
+        margin: 5px;
+        font-size: 17px;
+        background-color: transparent;
+        padding: 5px;
+        border-radius: 12px;
+    }
+    header .first-nav .menu a:hover{
+        letter-spacing: 1px;
+        background-color: blue;
+        color: white ;
+    }
+    header .first-nav .menu select{
+        margin-right: 10px;
+        border: none;
+        font-size: larger;
+        background-color:bisque;
+        border-radius: 10px;
+        width: 90px;
+    }
+    header .first-nav .menu select:hover{
+    }
+    
+    
+    /*------First nav bar end--------*/
+    /*----------===================================================-------*/
+    /*----------===================================================-------*/
+    /*-----Second nav bar start-------*/
+    
+    
+    
+    header .second-nav{
+        height: 40%;
+        width: 100%;
+        background-color: rgb(155, 219, 235);
+        border-bottom: 1px solid black;
+        align-items:flex-end;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    header .second-nav div a{
+        font-size: large;
+        position: relative;
+        top: -15px;
+        text-decoration: none;
+        right: 20px;
+    }
+    header .first-nav button{
+        display: block;
+        background-color:transparent;
+        margin-left: 390px;
+        margin-top: -35px;
+        border: none;
+        font-size: xx-large;
+    }
+    .big-box .about img{
+
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        height: 100px;
+        margin-right: 16px;
+        margin-bottom: 19px;
+        width: auto;
+        
+    }
+    .big-box .founder{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 124px;
+        border-bottom: 1px solid black;
+        position: relative;
+        margin-left: -165px;
+    }
+    .big-box .a2{ 
+        height: 250px;
+        width: 100%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .big-box .a3{
+        height: 100px;
+        width: 100%;
+        position: relative;
+        background-color:transparent;
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+    }
+}

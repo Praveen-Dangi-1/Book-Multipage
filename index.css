@@ -1,0 +1,648 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+
+    background-color:transparent;
+    overflow-x: hidden;
+}
+*{  margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+/*-----First nav bar start-------*/
+
+header{
+    height: 20vh;
+    width: 100%;
+    background-color:transparent;
+    box-sizing: 5px 5px 5px;
+    position: fixed;
+    z-index: 10;
+}
+header .first-nav{
+    height: 60%;
+    width: 100%;
+    background-color:aquamarine;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+header .first-nav .logo{
+    width: 10%;
+    height: 70%;
+    margin-left: 10px;
+}
+header .first-nav .logo img{
+    height: 100%;
+    width: 100%;
+   
+    
+}
+header .first-nav .search{
+    height: auto;
+    width: 30%;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+header .first-nav .search .search-1 {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+header .first-nav .search .search-1 input{
+    border: none;
+    background-color: aquamarine;
+    outline: none;
+    width: 90%;
+
+}
+header .first-nav .menu{
+    margin: 5px;
+    justify-content: space-between;
+}
+header .first-nav .menu a{
+    text-decoration: none;
+    margin: 5px;
+    font-size: 17px;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 12px;
+}
+header .first-nav .menu a:hover{
+    letter-spacing: 1px;
+    background-color: blue;
+    color: white ;
+}
+header .first-nav .menu select{
+    margin-right: 10px;
+    border: none;
+    font-size: larger;
+    background-color:bisque;
+    border-radius: 10px;
+    width: 90px;
+}
+header .first-nav .menu select:hover{
+}
+
+
+/*------First nav bar end--------*/
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+/*-----Second nav bar start-------*/
+
+
+
+header .second-nav{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(155, 219, 235);
+    border-bottom: 1px solid black;
+    align-items:flex-end;
+    display: flex;
+    flex-direction: column-reverse;
+}
+header .second-nav div a{
+    font-size: large;
+    position: relative;
+    top: -15px;
+    right: 10px;
+    text-decoration: none;
+}
+header .first-nav button{
+    position: relative;
+    display: none;
+}
+header .first-nav .menu .cross-btn{
+    position: relative;
+    display: none;
+}
+
+
+
+/*------second nav bar end--------*/
+
+.slider{
+    height: 40vh;
+    width: 500%;
+    position: relative;
+    top: 20vh;
+    display: flex;
+    animation-name: slider;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    background-color: cadetblue;
+}
+.slider .slider1{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+.slider .slider1 img{
+ width: 100%;
+ height: 100%;
+
+}
+.bullett{
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    font-size: large;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    z-index: 1;
+    top: 106px;
+}
+.bullet{
+    margin-left: 5px;
+
+    
+}
+@keyframes slider{
+    0%{
+        left: 0%;
+    }
+    10%{
+        left: -100%;
+    }
+    20%{
+        left: -200%;
+    }
+    30%{
+        left: -300%;
+    }
+    40%{
+        left: -400%;
+    }
+    50%{
+        left: -400%;
+    }
+    60%{
+        left: -300%;
+    }
+    70%{
+        left: -200%;
+    }
+    80%{
+        left: -100%;
+    }
+    90%{
+        left: 0%;
+    }
+  
+}
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+.buysell{
+    height: 300px;
+    width: 100%;
+    background-color:blanchedalmond;
+    margin-top: 110px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+}
+.buysell h1{
+    color: #000000;
+    font-style: italic;
+    margin-top: 80px;
+
+
+}
+.buysell p{
+    padding: 0px 200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/*----------Secotion ---------------- start-------*/
+
+
+.home{
+    
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    background-color: blanchedalmond;
+    
+}
+.card-outer{
+    width: 250px;
+    height: 350px;
+    background-color: transparent;
+    position: relative;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 7px 7px 5px rgb(214, 191, 15);
+
+}
+.card-outer .product{
+    height: 50%;
+    width: 80%;
+    margin-left: 45px ;
+    margin-top: 10px;
+}
+.card-outer .product img{
+    height: 100%;
+    width: 80%;
+}
+.card-outer .product p{
+    color: navy;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 0px 3px ;
+    margin-left: -30px;
+    margin-top: 6px;
+}
+.card-outer .product h3{
+    color: navy;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.card-outer .product h3 del{
+    color: navy;
+    font-size: large;
+    font-weight: bold;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+.card-outer .product ins{
+    text-decoration: none;
+    color: navy;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-top: 10px;
+    
+}
+
+
+.card-outer .button1{
+    margin-top: 98px;
+    margin-left: 86px;
+    background-color: red;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 3px;
+    cursor: pointer;
+    box-shadow: 2px 3px 2px gray;
+}
+.card-outer .button2{
+    margin-top: 10px;
+    margin-left: 87px;
+    background-color:yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 3px;
+    cursor: pointer;
+    box-shadow: 2px 3px 2px gray;
+
+}
+/*----------Secotion ---------------- end-------*/
+/*----------===================================================-------*/
+
+
+.text-center {
+    text-align: center;
+    background-color:bisque;
+    position: relative;
+    top: 10px;
+}
+u{
+    font-size: x-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    top: 90px;    
+}
+.text-center p{
+    padding: 0px 30px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-center .fs-3{
+    font-size: large;
+    padding: 0px 25px; font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+.sellbook, .buybook{
+    height: auto;
+    width: 100%;
+    background-color: rgb(172, 246, 246);
+    position: relative;
+    top: 15px;
+    border-top: 5px solid blue;
+    border-bottom: 2px solid blue;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+}
+.sellbook1{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.sellbook h2 {
+    border-bottom: 1px solid #008bcf;
+    color: #333;
+    font-size: 2rem;
+    display: inline-block;
+    padding-bottom: .5rem;
+    text-align: center;
+
+}
+.sellbook h2 span{
+    color: red;
+}
+
+.sellbook .fancy-font {
+    font-family: SuisseWorks, Georgia, "Times New Roman", Times, serif;
+}
+.sellbook p {
+    padding-top: 20px;
+    font-size: 1.35rem;
+    color: #555;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 0px 190px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+   
+}
+
+
+.buybook h2 {
+    border-bottom: 1px solid #008bcf;
+    color: #333;
+    font-size: 2rem;
+    display: inline-block;
+    padding-bottom: .5rem;
+    text-align: center;
+
+}
+.buybook h2 span{
+    color: red;
+}
+
+.buybook .fancy-font {
+    font-family: SuisseWorks, Georgia, "Times New Roman", Times, serif;
+}
+.buybook p {
+    padding-top: 20px;
+    font-size: 1.35rem;
+    color: #555;
+}
+
+
+.text-primary {
+    color: #0083ca !important;
+}
+.fw-bolder {
+    font-weight: 600 !important;
+}
+.sellbook2{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 75px;
+    
+}
+.sellbook2-a, .sellbook2-b, .sellbook2-c{
+    height: 250px;
+    width: 25%;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    top: 60px;
+}
+.steps{
+    height: 17%;
+    width: 26%;
+    border: none;
+    color: #ffffff;
+    background-color:rgb(46, 159, 216) ;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+    margin-right: -108px;
+    margin-top: -5px;
+}
+.sellbook2 img{
+    height: 40%;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px  gray;
+    padding: 5px;
+}
+
+
+.sellbook2 h3{
+    text-align: center;
+    padding: 0px 25px;
+    margin-top: 20px;
+}
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+
+
+
+
+
+
+
+/*----------===================================================-------*/
+/*----------footer start-------*/
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+
+.container{
+  max-width: 1170px;
+  margin:auto;
+  margin-top: 50px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #000000;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   margin-top: 50px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 25px;
+}
+.footer-col .social-links a i{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+.footer-col .social-links h5{
+    font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+}
+.footer-col1{
+    display: flex;
+    
+}
+.footer-col i{
+    color: white;
+    margin-right: 20px;
+}
+.footer .container .row .border-bottom{
+    width: 100%;
+    height: 1px;
+    border: 1px solid  #bbbbbb;
+}
+.footer .container .row .copyright{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 25px;
+}
+.copyright b{
+    color: yellow;
+}
+
+.footer .container .row p{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    margin-top: 20px;
+}
+/*----------footer end-------*/
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+/*----------footer responsiv-------*/
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col
+  {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media(max-width: 574px){
+  .footer-col
+  {
+    width: 100%;
+  }
+}

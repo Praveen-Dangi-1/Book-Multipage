@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*----------===================================================-------*/
+/*-----First nav bar start-------*/
+
+header{
+    height: 20vh;
+    width: 100%;
+    background-color:transparent;
+    box-sizing: 5px 5px 5px;
+    position: fixed;
+    z-index: 10;
+}
+header .first-nav{
+    height: 60%;
+    width: 100%;
+    background-color:aquamarine;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+header .first-nav .logo{
+    width: 10%;
+    height: 70%;
+    margin-left: 10px;
+}
+header .first-nav .logo img{
+    height: 100%;
+    width: 100%;
+   
+    
+}
+header .first-nav .search{
+    height: auto;
+    width: 30%;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+header .first-nav .search .search-1 {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+header .first-nav .search .search-1 input{
+    border: none;
+    background-color: aquamarine;
+    outline: none;
+    width: 90%;
+
+}
+header .first-nav .menu{
+    margin: 5px;
+    justify-content: space-between;
+}
+header .first-nav .menu a{
+    text-decoration: none;
+    margin: 5px;
+    font-size: 17px;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 12px;
+}
+header .first-nav .menu a:hover{
+    letter-spacing: 1px;
+    background-color: blue;
+    color: white ;
+}
+header .first-nav .menu select{
+    margin-right: 10px;
+    border: none;
+    font-size: larger;
+    background-color:bisque;
+    border-radius: 10px;
+    width: 90px;
+}
+header .first-nav .menu select:hover{
+}
+
+
+/*------First nav bar end--------*/
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+/*-----Second nav bar start-------*/
+
+
+
+header .second-nav{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(155, 219, 235);
+    border-bottom: 1px solid black;
+    align-items:flex-end;
+    display: flex;
+    flex-direction: column-reverse;
+}
+header .second-nav div a{
+    font-size: large;
+    position: relative;
+    top: -15px;
+    right: 10px;
+    text-decoration: none;
+}
+header .first-nav button{
+    position: relative;
+    display: none;
+}
+header .first-nav .menu .cross-btn{
+    position: relative;
+    display: none;
+}
+/*------second nav bar end--------*/
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+
+
+
+
+.big-box{
+    background-color: aqua;
+    height:170vh;
+    width: 100%;
+    position: relative;
+    top: 20vh;
+}
+.book-name{
+    position: relative;
+    top: 15vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: ce;
+    justify-content: center;
+}
+.book-name i{
+    font-size: x-large;
+    margin-right: 15px;
+
+}
+.book-name a{
+    text-decoration: none;
+    color: black;
+}
+.book-name i:hover, a:hover{
+    color:red;
+}
+.small-box{
+    position: relative;
+    top: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: ce;
+    justify-content: center;
+}
+.small-box .image img{
+    height: 60%;
+    position: relative;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 15px 15px 10px rgb(202, 105, 105);
+    margin-right: 30px;
+    margin-top: 40px;
+    
+}
+.small-box .image img:hover{
+    box-shadow: 20px 20px 20px gray;
+}
+.box-right{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.price{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: x-large;
+    top: 30px;
+}
+ins{
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: bolder;
+    color:rgb(49,131,202) ;
+}
+ins:hover{
+    color: red;
+}
+.price .free-shipping{
+    background-color: rgb(38,165,65);
+    color: rgb(255,255,237);
+    border: none;
+    font-size: x-large;
+    border-radius: 8px;
+}
+.price .free-shipping:hover{
+    background-color: blue;
+}
+.buy-now{
+    background-color: rgb(0,131,202);
+    color: white;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 60px;
+    
+}
+.buy-now:hover{
+    background-color: black;
+}
+.main-details{
+    position: relative;
+    display: flex;
+    margin-top: 40px;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+.details1{
+    position: relative;
+    margin-left: 10px;
+}
+h4{
+    font-size: larger;
+    margin-top: 15px;
+
+}
+.discription{
+    position: relative;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    list-style:inside ;
+    margin-top: 150px;
+    
+}
+h2{
+    margin-left: 40px;
+}
+.main-list{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.content{
+    position: relative;
+    display: flex;
+    line-height: 30px;
+}
+.content1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px; 
+}
+
+
+
+
+
+
+/*----------footer start-------*/
+/*----------===================================================-------*/
+/*----------===================================================-------*/
+
+.container{
+    max-width: 1170px;
+    margin:auto;
+    margin-top: 50px;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer{
+    background-color: rgb(0, 174, 255);
+      padding: 70px 0;
+  }
+  .footer-col{
+     width: 25%;
+     padding: 0 15px;
+     margin-top: 50px;
+  }
+  .footer-col h4{
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  .footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+  }
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color:black;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+    color: white;
+    padding-left: 25px;
+  }
+  .footer-col .social-links a i{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:black;
+    transition: all 0.5s ease;
+  }
+  .footer-col .social-links a:hover{
+    color: yellow;
+    
+  }
+  .footer-col .social-links h5{
+      font-size: 16px;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+    color:black;
+    display: block;
+  }
+  .footer-col1{
+      display: flex;
+      
+  }
+  .footer-col i{
+      color: black;
+      margin-right: 20px;
+  }
+  .footer .container .row .border-bottom{
+      width: 100%;
+      height: 1px;
+      border: 1px solid  black;
+  }
+  .footer .container .row .copyright{
+      color: white;
+      text-align: center;
+      font-size: x-large;
+      margin-top: 25px;
+  }
+  .copyright b{
+      color: yellow;
+  }
+  
+  .footer .container .row p{
+      font-size: 16px;
+      text-transform: capitalize;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 300;
+      color: black;
+      display: block;
+      margin-top: 20px;
+  }
+  /*----------footer end-------*/
+  /*----------===================================================-------*/
+  /*----------===================================================-------*/
+  /*----------footer responsiv-------*/
+  
+  /*responsive*/
+  @media(max-width: 767px){
+    .footer-col
+    {
+      width: 50%;
+      margin-bottom: 30px;
+    }
+  }
+  @media(max-width: 574px){
+    .footer-col
+    {
+      width: 100%;
+    }
+  }
+  
+
+
+
+

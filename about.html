@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="about mediaquery.css">
+    <link rel="icon" href="images/praveen profile.jpeg">
+    <script src="https://kit.fontawesome.com/23ebe26d2e.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!--------====================HEADER START==============--------->
+    <header>
+        <nav class="first-nav" id="menu1">
+            
+            <div class="logo">
+                <img src="images/logo.webp" alt="">
+            </div>
+
+
+            <div class="search">
+                
+                <div class="search-1">
+                    <input type="search" placeholder="Book Name / Author / Subject">
+                    <a href="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                
+                </div>
+                
+            </div>
+            <button onclick="open_menu()" id="btn"><i  class="fa-solid fa-ellipsis-vertical"></i></button>
+            <div class="menu" id="menu">
+                <button class="cross-btn" onclick="close_menu()">X</button>
+                <a href="index.html">HOME </a>
+                <a href="index.html">ABOUT</a>
+                <select name="links" onchange="window.location.href=this.value;">
+                    <option>Books</option>
+                    <option value="c book.html">C</option>
+                    <option value="c++ book.html">C++</option>
+                    <option value="python.html">PYTHON</option>
+                    <option value="html book.html">HTML</option>
+                    <option value="java.html">JAVA</option>
+                    <option value="sql.html">SQL</option>
+                    
+                    
+                    
+                </select>
+            </div>
+
+            
+        </nav>
+        
+     <!--------------========================================---------->
+     <!--------------========================================---------->
+        <nav class="second-nav">
+            <div>
+                <a href="login.html"> Login Here
+                    <i class="fa-solid fa-power-off"></i>
+                </a>
+            </div>
+           
+        </nav>
+
+
+        
+       
+    </header>
+
+<!--------------========================================---------->
+<!------------HEADER END---------------->
+<!--------------========================================---------->
+<!--------------========================================---------->
+<!------------about SECTION START---------------->
+ <!--------------========================================---------->
+ <section class="big-box">
+    <div class="about">
+        <div class="our-mission">
+            <a href="index.html"><h4>ABOUT US</h4></a>
+        </div>
+        <div class="material">
+            <div class="b2">
+                <h2>BookMela powers millions <br> of businesses worldwide</h2>
+            </div>
+            <img src="images/about11.jpeg" alt="">
+        </div>
+    </div>
+    <!--------------========================================---------->
+    <!--------------========================================---------->
+
+    <div class="about1">
+        <div class="our-mission">
+            <h4>OUR MISSION</h4>
+        </div>
+        <div class="material">
+            <video src="videos/video1.mp4" controls></video>
+            <div class="b2">
+                <h2>Making commerce better <br>for everyone</h2>
+                <h5>We help people achieve independence <br> by
+                making it easier to start, run, <br> and
+                grow a business. We believe the <br>
+                future of commerce has more voices,<br>
+                not fewer, so we're reducing the <br>
+                barriers to business ownership 
+                to <br> make commerce better for everyone.
+                </h5>
+            </div>
+        </div>
+    </div>
+    <!--------------========================================---------->
+    <!--------------========================================---------->
+    <div class="founder">
+        <div class="founder1">
+            <h2>Founder & Desiner</h2>
+            <h1>ER. PRAVEEN DANGI</h1>
+            <h3>Web Devloper </h3>
+        </div>
+        <div class="founder2">
+            <img src="images/praveen profile.jpeg" alt="">
+        </div>
+    </div>
+    <!--------------========================================---------->
+    <!--------------========================================---------->
+    
+    <div class="a2">
+        <i class="fa-solid fa-earth-americas"></i>
+        <select name="" id="">
+            
+            <option value="">
+               
+                <a href="">India</a>
+            </option>
+            <option value="">
+                <a href="">China</a>
+            </option>
+            <option value="">
+                <a href="">Australia</a>
+            </option>
+            <option value="">
+                <a href="">USA</a>
+            </option>
+            <option value="">
+                <a href="">Brasil</a>
+            </option>
+            <option value="">
+                <a href="">Canada</a>
+            </option>
+            <option value="">
+                <a href="">France</a>
+            </option>
+            <option value="">
+                <a href="">singapore</a>
+            </option>
+        </select>
+        <a href="">Terms of Services</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Sitemap</a>
+    </div>
+    <!--------------========================================---------->
+    <!--------------========================================---------->
+    <div class="connectwithus">    
+        <h4>Connect With Us</h4>
+        <ul>______________</ul>
+    </div>    
+    <div class="a3">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        
+        <i class="fa-brands fa-telegram"></i>
+        <i class="fa-brands fa-pinterest"></i>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+<script>
+    var x=document.getElementById("menu")
+console.log(x)
+function open_menu() {
+   x.style.left="0px";
+   
+   document.getElementById("btn").style.display="none";
+   
+   
+}
+function close_menu() {
+   x.style.left="-100%";
+   document.getElementById("btn").style.display="block";
+   
+   
+}
+</script>
+
+
+
+</body>
+</html>

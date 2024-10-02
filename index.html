@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="mediaquery phone.css">
+    <link rel="icon" href="images/praveen profile.jpeg">
+    <script src="https://kit.fontawesome.com/23ebe26d2e.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <!--------====================HEADER START==============--------->
+    <header>
+        <nav class="first-nav" id="menu1">
+            
+            <div class="logo">
+                <img src="images/logo.webp" alt="">
+            </div>
+
+
+            <div class="search">
+                
+                <div class="search-1">
+                    <input type="search" placeholder="Book Name / Author / Subject">
+                    <a href="">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                
+                </div>
+                
+            </div>
+            <button onclick="open_menu()" id="btn"><i  class="fa-solid fa-ellipsis-vertical"></i></button>
+            <div class="menu" id="menu">
+                <button class="cross-btn" onclick="close_menu()">X</button>
+                <a href="index.html">HOME </a>
+                <a href="about.html">ABOUT</a>
+                <select name="links" onchange="window.location.href=this.value;">
+                    <option>Books</option>
+                    <option value="c book.html">C</option>
+                    <option value="c++ book.html">C++</option>
+                    <option value="python.html">PYTHON</option>
+                    <option value="html book.html">HTML</option>
+                    <option value="java.html">JAVA</option>
+                    <option value="sql.html">SQL</option>
+                    
+                    
+                    
+                </select>
+            </div>
+
+            
+        </nav>
+        
+     <!--------------========================================---------->
+     <!--------------========================================---------->
+        <nav class="second-nav">
+            <div>
+                <a href="login.html"> Login Here
+                    <i class="fa-solid fa-power-off"></i>
+                </a>
+            </div>
+           
+        </nav>
+
+
+        
+       
+    </header>
+
+<!--------------========================================---------->
+<!------------HEADER END---------------->
+<!--------------========================================---------->
+<!--------------========================================---------->
+<!------------SLIDER SECTION START---------------->
+<!--------------========================================---------->
+    
+    <section class="slider">
+        <div class="slider1">
+            <img src="images/slidder/1.jpeg" alt="">
+        </div>
+        <div class="slider1">
+            <img src="images/slidder/2.jpeg" alt="">
+        </div>
+        <div class="slider1">
+            <img src="images/slidder/3.jpeg" alt="">
+        </div>
+        <div class="slider1">
+            <img src="images/slidder/4.jpeg" alt="">
+        </div>
+        <div class="slider1">
+            <img src="images/slidder/5.jpeg" alt="">
+        </div>
+        
+    </section>
+    <div class="bullett">
+        <li class="bullet"><a href=""><i class="fa-regular fa-circle-dot"></i></a></li>
+        <li class="bullet"><a href=""><i class="fa-regular fa-circle-dot"></i></a></li>
+        <li class="bullet"><a href=""><i class="fa-regular fa-circle-dot"></i></a></li>
+        <li class="bullet"><a href=""><i class="fa-regular fa-circle-dot"></i></a></li>
+        <li class="bullet"><a href=""><i class="fa-regular fa-circle-dot"></i></a></li>
+    </div>
+ <!--------------========================================---------->
+ <!------------SLIDER SECTION END---------------->
+ <!--------------========================================---------->
+    <section class="buysell">
+        <h1 class="text-white">Buy and Sell Old Books Online in India for Actual Money!</h1><br><br>
+        <p>At Book Mela you can buy second hand books and sell old books online at best prices.</p> <br> <p>Selling used books online for cash made easy with Book Mela !</p>
+    </section>
+ <!--------------========================================---------->
+ <!------------HOME SECTION START---------------->
+ <!--------------========================================---------->
+    <section class="home">
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/c.jpg" alt="prod-img">
+                <p>C Programming</p>
+                <h3>Price: ₹ <del> 999</del></h3>
+                <ins>₹ 299 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/bio.jpeg" alt="prod-img">
+                <p>Biology</p>
+                <h3>Price: ₹ <del> 299</del></h3>
+                <ins>₹ 99 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/c++.jpg" alt="prod-img">
+                <p>C++ Book</p>
+                <h3>Price: ₹ <del> 399</del></h3>
+                <ins>₹ 199 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/chemistry.jpeg" alt="prod-img">
+                <p>Chemistry</p>
+                <h3>Price: ₹ <del> 399</del></h3>
+                <ins>₹ 299 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/dictonary.jpg" alt="prod-img">
+                <p>Oxford Dictonary</p>
+                <h3>Price: ₹ <del> 999</del></h3>
+                <ins>₹ 799 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/english.jpg" alt="prod-img">
+                <p>English General</p>
+                <h3>Price: ₹ <del> 239</del></h3>
+                <ins>₹ 199 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/civics.jpeg" alt="prod-img">
+                <p>Civics</p>
+                <h3>Price: ₹ <del> 299</del></h3>
+                <ins>₹ 129 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/data structure.jpg" alt="prod-img">
+                <p>Data structure</p>
+                <h3>Price: ₹ <del> 499</del></h3>
+                <ins>₹ 399 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/django.png" alt="prod-img">
+                <p>Django Programming</p>
+                <h3>Price: ₹ <del> 349</del></h3>
+                <ins>₹ 222 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/geography.jpeg" alt="prod-img">
+                <p>Geography</p>
+                <h3>Price: ₹ <del> 199</del></h3>
+                <ins>₹ 99 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/html.jpeg" alt="prod-img">
+                <p>HTML Programming</p>
+                <h3>Price: ₹ <del> 999</del></h3>
+                <ins>₹ 299 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/java.jpeg" alt="prod-img">
+                <p>JAVA Programming</p>
+                <h3>Price: ₹ <del> 999</del></h3>
+                <ins>₹ 699 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/js.jpeg" alt="prod-img">
+                <p>JS</p>
+                <h3>Price: ₹ <del> 399</del></h3>
+                <ins>₹ 129 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/literatre.jpg" alt="prod-img">
+                <p>Literature</p>
+                <h3>Price: ₹ <del> 399</del></h3>
+                <ins>₹ 299 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/math.jpeg" alt="prod-img">
+                <p>NCERT Maths</p>
+                <h3>Price: ₹ <del> 999</del></h3>
+                <ins>₹ 599 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/physics.jpeg" alt="prod-img">
+                <p>Physics</p>
+                <h3>Price: ₹ <del> 599</del></h3>
+                <ins>₹ 499 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/politics.jpeg" alt="prod-img">
+                <p> politics</p>
+                <h3>Price: ₹ <del> 239</del></h3>
+                <ins>₹ 109 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/python.jpg" alt="prod-img">
+                <p>PYTHON Programming</p>
+                <h3>Price: ₹ <del> 499</del></h3>
+                <ins>₹ 299 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/react.jpeg" alt="prod-img">
+                <p>React Programming</p>
+                <h3>Price: ₹ <del> 599</del></h3>
+                <ins>₹ 349 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/science.jpg" alt="prod-img">
+                <p>Science</p>
+                <h3>Price: ₹ <del> 399</del></h3>
+                <ins>₹ 299 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/social science.jpg" alt="prod-img">
+                <p>Social Studies</p>
+                <h3>Price: ₹ <del> 399</del></h3>
+                <ins>₹ 249 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+        <div class="card-outer">
+            <div class="product">
+                <img src="images/books/sql.png" alt="prod-img">
+                <p>SQL Programming</p>
+                <h3>Price: ₹ <del> 599</del></h3>
+                <ins>₹ 449 /-</ins>
+            </div>
+            <button class="button1">Sell Now</button>
+            <button class="button2">Buy Now</button>
+        </div>
+
+    </section>
+
+ <!--------------========================================---------->
+ <!------------HOME SECTION END---------------->
+ 
+ <!--------------========================================---------->
+ 
+ 
+    <div class="text-center">
+        <u>BookMela - A Student-to-Student Bookstore
+        </u><br><br><br>
+        
+        <p>Are you a college going student and are upset with the increasing number of used books after each new semester, or you are a regular book reader who after reading the books, keep the old books on the bookshelves or in a cupboard and forget them? If yes, then BookMela is just made for you!</p><br><br><br>
+        <p>BookMela is India's leading platform where you can sell used books online. At BookMela, we help people to sell their used books to another book lover just like them at interesting prices. </p><br><br><br>
+        <p>Selling and buying books on BookMela is a win-win situation for both the buyer and the seller. How? Let's see. As a seller, you can earn some good amount of money by selling your old books (which you don't even need) to another person at good prices. And being a buyer, you can save some money by buying the second hand books directly from the book owner.</p><br><br>
+        <em class="fs-3">"  Selling used second hand books at  your own  desired  price is  not an uphill  battle anymore.  Just sell them  on BookMela!"</em>
+    </div>
+ 
+
+
+
+    <div class="sellbook">
+        <div class="sellbook1">
+            <h2 class="fancy-font">How to <span class="ck-gradient-text">SELL</span> your old books online on BookMela?</h2>
+            <p>Well, you can sell your old used books very easily on Clankart for actual cash.</p>
+            <p class="px-5 pt-2 quote d-inline-block">Earning money by selling your old books is just <b>3 steps</b> away from you <span class="fw-bolder text-primary fs-2">:)</span></p>
+        </div>
+        <div class="sellbook2">
+            <div class="sellbook2-a">
+                <div class="steps">
+                    Step1
+                </div>
+                <img src="images/seller-addd.svg" alt="image">
+                <h3>Post an ad for selling used books</h3>
+
+            </div>
+            <div class="sellbook2-b">
+                <div class="steps">
+                    Step2
+                </div>
+                <img src="images/set-price(sell).svg" alt="image">
+                <h3>Set the selling price for your books</h3>
+
+            </div>
+            <div class="sellbook2-c">
+                <div class="steps">
+                    Step3
+                </div>
+                <img src="images/money-release(sell).svg" alt="image">
+                <h3>Get paid into your UPI/Bank account</h3>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="buybook">
+        <div class="sellbook1">
+            <h2 class="fancy-font">How to <span class="ck-gradient-text">BUY</span> second hand books online on BookMela?</h2>
+            <p>Well, you can buy second hand books very easily on BookMela.</p>
+            <p class="px-5 pt-2 quote d-inline-block">Saving some good amount of money by buying used (preloved) books is just <b>3 steps</b> away from you <span class="fw-bolder text-primary fs-2">:)</span></p>
+        </div>
+        <div class="sellbook2">
+            <div class="sellbook2-a">
+                <div class="steps">
+                    Step1
+                </div>
+                <img src="images/search-item.svg" alt="image">
+                <h3>Select the used books you want</h3>
+
+            </div>
+            <div class="sellbook2-b">
+                <div class="steps">
+                    Step2
+                </div>
+                <img src="images/buy.svg" alt="image">
+                <h3>Place the order by making payment to BookMela</h3>
+
+            </div>
+            <div class="sellbook2-c">
+                <div class="steps">
+                    Step3
+                </div>
+                <img src="images/seller-ships.svg" alt="image">
+                <h3>Get the books delivered at your doorstep</h3>
+
+            </div>
+        </div>
+    </div>
+ 
+ 
+ 
+ 
+ 
+ <!------------footer SECTION START---------------->
+  <!--------------========================================---------->
+ <!--------------========================================---------->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="about.html">about us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                        <li><a href="#">Blog</a></li>
+                    
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">Mathematics</a></li>
+                        <li><a href="#">Programming</a></li>
+                        <li><a href="#">Literature</a></li>
+                        <li><a href="#">Computer</a></li>
+                        <li><a href="#">Physics</a></li>
+                        <li><a href="#">Chemistry</a></li>
+                        <li><a href="#">Biology</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>useful links</h4>
+                    <ul>
+                        <li><a href="#">How it works?</a></li>
+                        <li><a href="#">BookMela Teleport</a></li>
+                        <li><a href="#">Freqently Asked Questions(FAQs)</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Listing Policy</a></li>
+                        
+                        
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <div class="footer-col1">
+                        <i class="fa-regular fa-credit-card"></i>
+                        <h4>Secure Payment</h4>
+                    </div>
+                    <div class="social-links">
+                        <h5>100% Secure Online Transection</h5>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <div class="footer-col1">
+                        <i class="fa-regular fa-square-check"></i>
+                        <h4>BookMela Trust</h4>
+                    </div>
+                    <div class="social-links">
+                        <h5>Money stored safely & is transferred to the seller only after buyer confirmation</h5>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <div class="footer-col1">
+                        <i class="fa-regular fa-comment-dots"></i>
+                        <h4>Customer Support</h4>
+                    </div>
+                    <div class="social-links">
+                        <h5>Friendly customer support</h5>
+                    </div>
+                </div>
+                <div class="border-bottom">----------</div>
+                <div>
+                
+                    <p>BookMela is a free platform where you can buy second hand books at very cheap prices. Well at BookMela, you can also sell used books online in India for actual cash. Buy used books online like college books, school books, reading books, much more near you.</p>
+                    <div class="border-bottom">----------</div>
+
+                    <div class="copyright">Copyright © 2024, <b>BookMela™ </b>All Rights Reserved</div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+  <!------------footer SECTION END---------------->
+  <!--------------========================================---------->
+  <!--------------========================================---------->
+    <script>
+         var x=document.getElementById("menu")
+    console.log(x)
+    function open_menu() {
+        x.style.left="0px";
+        
+        document.getElementById("btn").style.display="none";
+        
+        
+    }
+    function close_menu() {
+        x.style.left="-100%";
+        document.getElementById("btn").style.display="block";
+        
+        
+    }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
